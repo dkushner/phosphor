@@ -1,4 +1,5 @@
 phosphor
 ========
 
-Stream-based image processing and upload library for node.
+A next-generation rendering engine built on emergent web technologies.
+

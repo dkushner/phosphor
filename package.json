@@ -1,0 +1,23 @@
+{
+  "name": "phosphor",
+  "version": "0.0.0",
+  "description": "A next-generation game engine based on emergent web technologies.",
+  "main": "phosphor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "engine",
+    "games",
+    "next-gen"
+  ],
+  "author": "Dave Kushner",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "gulp-traceur": "~0.8.0",
+    "traceur": "0.0.49"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.6"
+  }
+}
