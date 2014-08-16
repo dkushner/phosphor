@@ -24,7 +24,7 @@ Phosphor's focus is on leveraging modern web technologies and open source softwa
   - **Provides**: WebGL/Canvas Rendering
   - **Project Page**: http://threejs.org/
   - **Rationale**: three.js is the preeminent WebGL framework on the web. It provides easy-to-use implementations of common rendering elements like materials, meshes and lights and lets us avoid writing thousands of lines of boilerplate GL code. three.js is used to implement Phosphor's default graphics provider.
-  - 
+
 ### Cannon.js
   - **Provides**: Physics Simulation
   - **Project Page**: http://www.cannonjs.org
