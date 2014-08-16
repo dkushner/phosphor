@@ -10,23 +10,23 @@ It is written in ES6, the next-generation standard for the JavaScript language a
 
 Phosphor's focus is on leveraging modern web technologies and open source software to create a framework for interactive 3D applications that is not only powerful but performant. To accomplish this goal, we have decided to leverage the following libraries/tools:
 
-- ### di.js 
+### di.js 
   - **Provides**: Dependency Injection
   - **Project Page**: https://github.com/angular/di.js
   - **Rationale**: The goal is to create a rendering engine that is not only feature-rich but modular and extensible. Using dependency injection allows us to expose services only through an interface that defines the functionality the service provides. This makes repurposing and testing the engine significantly easier.
-- ### RequireJS
+### RequireJS
   - **Provides**: Asynchronous Module Definition (AMD) 
   - **Project Page**: http://requirejs.org/
   - **Rationale**: While RequireJS is not a core component of Phosphor's framework, it is used extensively to load the engine and its many dependencies into the browser. 
-- ### three.js 
+### three.js 
   - **Provides**: WebGL/Canvas Rendering
   - **Project Page**: http://threejs.org/
   - **Rationale**: three.js is the preeminent WebGL framework on the web. It provides easy-to-use implementations of common rendering elements like materials, meshes and lights and lets us avoid writing thousands of lines of boilerplate GL code. three.js is used to implement Phosphor's default graphics provider.
-- ### Cannon.js
+### Cannon.js
   - **Provides**: Physics Simulation
   - **Project Page**: http://www.cannonjs.org
   - **Rationale**: Cannon.js is a small and efficient 3D physics framework written in JavaScript. It provides the basic elements of physical simulation (bodies, collisions, constraints, etc.) and may easily be run in an HTML5 WebWorker, improving performance by allowing physics computations to execute in a separate thread. Cannon.js is used to implement Phosphor's default physics provider.
-- ### React
+### React
   - **Provides**: Interface Components
   - **Project Page**: http://facebook.github.io/react/index.html
   - **Rationale**: React is a lightweight and remarkably efficient library for building user interfaces from small, reusable components. Its one-way reactive data binding makes it perfect for allowing users to visualize and interact with data. React is used to implement Phosphor's default interface provider.
